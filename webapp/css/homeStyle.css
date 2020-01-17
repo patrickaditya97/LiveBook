@@ -1,0 +1,131 @@
+body
+{
+    background-color: #666666;
+    margin-bottom: 50px;
+}
+
+.navigationBar
+{
+    background-color: #282832;
+    box-shadow: 0px 0px 15px 1px;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+}
+
+#navSearchBox
+{
+    width: 370px;
+    height: 45px;
+    background-color: #40404f;
+    border: 0;
+    margin-top: 11px;
+}
+
+.navbarForm li
+{
+    display: inline-block;
+}
+
+.navbarForm
+{
+    float: left;
+}
+
+.iconsOfNavbar li
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    padding: 5px 15px;
+}   
+
+.iconsOfNavbar li i
+{
+    color: #40404c;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.iconsOfNavbar li span
+{
+    font-size: 10px;
+    text-align: center;
+}
+
+.iconsOfNavbar
+{
+    float: right;
+}
+
+.mainContent
+{
+    margin-top: 105px;
+}
+
+.postCard
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.postCardBody
+{
+    background-color: #282832;
+    border-radius: 10px;
+    height: 140px;
+    box-shadow: 3px 3px 15px;
+}
+
+#cardTextBox
+{
+    position: relative;
+    bottom: 0px;
+    top: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #333340;
+    color: white;
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.personInfo
+{
+    color: #616161;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.personInfo .icon 
+{
+    margin-left: 15px;
+    font-size: 40px;
+    height: 40px;
+    width: 50px;
+}
+  
+.personInfo .text 
+{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.postLikesComments
+{
+    color: #616161;
+    position: relative;
+    bottom: -230px;
+    width: 100px;
+}
